@@ -4,7 +4,7 @@ from parallelPlates import parallel_x_values, parallel_y_values
 from insulator import insulator_x_values, insulator_y_values
 from circularPlate import circular_x_values, circular_y_values
 
-[X, Y] = np.meshgrid(parallel_x_values, parallel_y_values)
+# [X, Y] = np.meshgrid(parallel_x_values, parallel_y_values)
 
 fig, ax = plt.subplots(2, 2)
 fig.set_figheight(6)
